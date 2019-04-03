@@ -7,11 +7,11 @@ body {
     height: 100%;
     position: absolute;
     top: 0;
-    background-image: ;
+    background-image:   
     opacity: 1"
 
 }
-
+ /* all buttons default */
 button {
     border-radius: 12px;
     background-color: skyblue;
