@@ -144,31 +144,30 @@ img {
 
 .vertical-icons img {
 
-        padding: 1em 1em 1em 1em;
-        display: inline-block;
-        max-width: 25;
+        padding: 2px 2px 2px 2px; 
+        display: inline;
+        max-width: 250px;
 }
 
 .template-image-link {
     padding: 1em 1em 1em 1em;
-    display: inline-block;
+    padding: 2px 2px 2px 2px; 
 }
 
 .template-image-link img {
-    display: inline-block;
-    padding: 1em 1em 1em 1em;
+    display: inline;
+    padding: 2px 2px 2px 2px; 
 }
 
 template-image-link-row-2 {
     padding: 1em 1em 1em 1em;
-    display: inline-block;
+    padding: 2px 2px 2px 2px; 
 
 }
 
 template-image-link-row-2 img {
-    display: inline-block;
-    padding: 1em 1em 1em 1em;
-    display: inline-block;
+    display: inline;
+    padding: 2px 2px 2px 2px;   
 }
 
 footer {
