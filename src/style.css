@@ -2,12 +2,16 @@ body {
     background-color: cyan;
 }
 
+.title {
+    margin-top: 20%;
+}
+
 .banner {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
-    background-image:   
+    background-image:"/../images/header.jpg"   
     opacity: 1"
 
 }
@@ -29,6 +33,9 @@ h1 {
     text-align: center;
 }
 
+h2{
+    display: block;
+}
 .nav {
     position: relative;
     width: 100%;
@@ -52,8 +59,12 @@ h1 {
 
 .nav img {
     position: absolute;
+    margin: auto;
+    display: block;
     top: 0%;
-    left: 0% display: inline-block;
+    left: 0%;
+    width: 160px;
+    height: 190px;
 }
 
 img {
@@ -65,9 +76,11 @@ img {
 }
 
 .logo {
-    position: relative;
-    left: 0px;
-    top: 0px;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 400px;
+    height: 156px:
 }
 
 .top-rght-btn .start-button {
@@ -129,6 +142,35 @@ img {
 
 }
 
-.vertical-icons {
+.vertical-icons img {
+
+        padding: 1em 1em 1em 1em;
+        display: inline-block;
+        max-width: 25;
+}
+
+.template-image-link {
+    padding: 1em 1em 1em 1em;
     display: inline-block;
+}
+
+.template-image-link img {
+    display: inline-block;
+    padding: 1em 1em 1em 1em;
+}
+
+template-image-link-row-2 {
+    padding: 1em 1em 1em 1em;
+    display: inline-block;
+
+}
+
+template-image-link-row-2 img {
+    display: inline-block;
+    padding: 1em 1em 1em 1em;
+    display: inline-block;
+}
+
+footer {
+    ;
 }
