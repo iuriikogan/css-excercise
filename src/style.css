@@ -140,13 +140,21 @@ img {
     padding-left: auto;
     padding-right: auto;
 
+.vertical-icons {
+
+    display: inline-block;
+    margin: 0em;
+    padding: 1em;
+    height: auto;
+    border: solid;
 }
 
-.vertical-icons img {
+.vertical-icons img png{
 
-        padding: 2px 2px 2px 2px; 
         display: inline;
+        max-height: 320px;
         max-width: 250px;
+        padding: 5px 5px 5px 5px;
 }
 
 .template-image-link {
@@ -159,17 +167,13 @@ img {
     padding: 2px 2px 2px 2px; 
 }
 
-template-image-link-row-2 {
+.template-image-link-row-2 {
     padding: 1em 1em 1em 1em;
     padding: 2px 2px 2px 2px; 
 
 }
 
-template-image-link-row-2 img {
+.template-image-link-row-2 img {
     display: inline;
     padding: 2px 2px 2px 2px;   
-}
-
-footer {
-    ;
 }
