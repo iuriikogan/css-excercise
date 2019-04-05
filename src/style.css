@@ -6,6 +6,7 @@
     height: 756px;
 }
 
-body{
-    text-align: center;
+hr {
+    width: 2px;
+    color: darkblue;
 }
