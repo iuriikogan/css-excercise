@@ -3,12 +3,13 @@
 
 <head>
     <meta name="Author" content="iurii Kogan - Totuga Coders">
-    <script src="/src/main.js"></script>
-    <link rel="stylesheet" type="text/css" href="/src/bootstrap.css">
+    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Bootstrap Exercise</title>
 </Head>
 
-<body>
+<body style="background-color: azure;">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item active" aria-current="page">Home</li>
@@ -29,26 +30,44 @@
             <li class="breadcrumb-item active" aria-current="page">Contact Us!</li>
         </ol>
     </nav>
+    <div class="header-elem">
+        <div class="container-fluid">
 
-    <div class="container-fluid" style="width: 100%;">
-        <div class="container">
-            <img id="header-img" src="/images/header.jpg" style="position: relative; height: 345px; width: 100%;">
+            <div class="row">
+                <div class="col">
+
+                    <a href="http://bandu.io" id="logo"><img src="/images/logo.png"
+                            style="padding-bottom: 5px; padding-top: 5px;"></a>
+
+
+                </div>
+                <div class="col offset-9">
+
+
+                    <button type="button" class="btn btn-success" href="http:/bandu.io/signup" style="margin-top: 10px;">sign in</button>
+
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="nav">
-        <a href="http://bandu.io" id="logo">
-            <img src="/images/logo.png" class="rounded float-left" alt="B"
-                style="position: absolute; left: 0%; top: 7%; padding: 3px 3px 3px 3px;">
-        </a>
-    </div>
-    <div class="container">
-        <button class='btn btn-success sign-in-button' href="http:/bandu.io/signup"
-            style=" position: absolute; right: 10%;top:10%; border-radius: 12px;">Sign
-            Up!</button>
-    </div>
-
-
-
+        <div class="card text-center" style="margin-top: 7%; ">
+            <div class="card-header">
+                Bandu Web Design
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Curated Web Design of the next generation</h5>
+                <div class="card-footer text-muted">
+                    Full Service Web Packages at a Reasonable Cost.
+                    <br><br><button type="button" class="btn-lg btn-success offset-0" style="padding: 1px 1px 1px 1px"
+                        href="http:/bandu.io/signup">sign in</button>
+                </div>
+    <div class="card" style="width: 18rem;">
+                    <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">10 Years of Experience</h5>
+                                <p class="card-text">Our clients come back again and again for a reason. We are good at what we do, and, we do it at a fair price.
+                                </p><a href="http://bandu.io/contact.html" tartget="_new" class="btn btn-primary">Go somewhere</a></div>
+    </div>                    
+    </div>                        
 </body>
 
-</html>
+</html
