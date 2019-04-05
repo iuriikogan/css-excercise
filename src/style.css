@@ -6,6 +6,9 @@
     height: 756px;
 }
 
+.reviews{
+    text-align: center;
+}
 #myFooter {
     background-color: #3a3f46;
     color: white;
